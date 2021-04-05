@@ -1,0 +1,7 @@
+test_file = open('c:\\Users\\Lampadov\\Desktop\\test.txt')
+text = test_file.read()
+test_file2 = open('c:\\Users\\Lampadov\\Desktop\\test2.txt', 'w')
+test_file2.write(text)
+test_file2 = open('c:\\Users\\Lampadov\\Desktop\\test2.txt')
+text = test_file2.read()
+print(text)
